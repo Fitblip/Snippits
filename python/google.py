@@ -1,5 +1,14 @@
 #!/usr/bin/env python
 # Google searcher. Fucking google and it's case-insensativity :(
+
+#
+# This script uses an AJAX call to the google api in order to 
+# search for keywords (up to 64 results only :() and display
+# links to you. It's useful because you can incorperate this
+# in other ways to do things like grab the first 64 .doc files
+# google sees, or to search for things with the site: operator!
+#
+
  
 import urllib2
 import urllib
