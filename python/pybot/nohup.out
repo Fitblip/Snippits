@@ -1,0 +1,40 @@
+/usr/lib/python2.6/dist-packages/irclib.py:435: DeprecationWarning: socket.ssl() is deprecated.  Use ssl.wrap_socket() instead.
+  self.ssl = socket.ssl(self.socket)
+/usr/lib/python2.6/dist-packages/irclib.py:435: DeprecationWarning: socket.ssl() is deprecated.  Use ssl.wrap_socket() instead.
+  self.ssl = socket.ssl(self.socket)
+Traceback (most recent call last):
+  File "./irc.py", line 85, in <module>
+    irc.start()
+  File "/usr/lib/python2.6/dist-packages/irclib.py", line 1114, in start
+    self.ircobj.process_forever()
+  File "/usr/lib/python2.6/dist-packages/irclib.py", line 229, in process_forever
+    self.process_once(timeout)
+  File "/usr/lib/python2.6/dist-packages/irclib.py", line 213, in process_once
+    (i, o, e) = select.select(sockets, [], [], timeout)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "./irc.py", line 85, in <module>
+    connection.privmsg(channel,line)
+  File "/usr/lib/python2.6/dist-packages/irclib.py", line 1114, in start
+    self.ircobj.process_forever()
+  File "/usr/lib/python2.6/dist-packages/irclib.py", line 229, in process_forever
+    self.process_once(timeout)
+  File "/usr/lib/python2.6/dist-packages/irclib.py", line 213, in process_once
+    (i, o, e) = select.select(sockets, [], [], timeout)
+KeyboardInterrupt
+/usr/lib/python2.6/dist-packages/irclib.py:435: DeprecationWarning: socket.ssl() is deprecated.  Use ssl.wrap_socket() instead.
+  self.ssl = socket.ssl(self.socket)
+Traceback (most recent call last):
+  File "irc.py", line 107, in <module>
+    irc.start()
+  File "/usr/lib/python2.6/dist-packages/irclib.py", line 1114, in start
+    self.ircobj.process_forever()
+  File "/usr/lib/python2.6/dist-packages/irclib.py", line 229, in process_forever
+    self.process_once(timeout)
+  File "/usr/lib/python2.6/dist-packages/irclib.py", line 213, in process_once
+    (i, o, e) = select.select(sockets, [], [], timeout)
+KeyboardInterrupt
+/usr/lib/python2.6/dist-packages/irclib.py:435: DeprecationWarning: socket.ssl() is deprecated.  Use ssl.wrap_socket() instead.
+  self.ssl = socket.ssl(self.socket)
+/usr/lib/python2.6/dist-packages/irclib.py:435: DeprecationWarning: socket.ssl() is deprecated.  Use ssl.wrap_socket() instead.
+  self.ssl = socket.ssl(self.socket)
